@@ -1,24 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Oskar | CV</title>
+    <meta name="description" content="CV för Oskar Westman">
+    <title>Oskar Westman | CV</title>
 </head>
 <body>
-    <header>
-        <h1>Oskar Westman</h1>
-        <p>Student | oskar.westman.home@gmail.com</p>
-    </header>
+    <main class="cv-shell">
+        <aside class="sidebar">
+            <div class="monogram" aria-hidden="true">OW</div>
+            <p class="eyebrow">Curriculum vitae</p>
+            <img class="profile-photo" src="cvprofilbild.jpg" alt="Porträtt av Oskar Westman">
+            <h1>Oskar<br>Westman</h1>
+            <p class="role">Student</p>
 
-    <section id="Erfarenhet">
-        <h2>Erfarenhet inom arbete</h2>
-        <article>
-            <h3>Fastighetsskötare - Wedins fönsterputs</h3>
-            <p>Från början av september till nuet</p>
-        </article>
-    </section>
+            <div class="sidebar-block contact">
+                <h2>Kontakt</h2>
+                <p class="contact-label">Telefon</p>
+                <a href="tel:+46732636746">+46 73 263 67 46</a>
+                <p class="contact-label">E-post</p>
+                <a href="mailto:oskar.westman.home@gmail.com">oskar.westman.home@gmail.com</a>
+            </div>
+
+            <div class="sidebar-block">
+                <h2>Kompetenser</h2>
+                <ul class="skill-list">
+                    <li>Tekniskt lagd</li>
+                    <li>Noggrann</li>
+                    <li>Pålitlig</li>
+                    <li>Hjälpsam</li>
+                    <li>Punktlig</li>
+                    <li>Serviceinriktad</li>
+                    <li>Praktiskt lagd</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-block interests">
+                <h2>Intressen</h2>
+                <p>Dataspel<br>Familj<br>Film &amp; musik<br>God mat<br>Utförsåkning</p>
+            </div>
+
+        </aside>
+
+        <div class="content">
+            <button id="theme-btn" type="button" aria-pressed="false">
+                <span class="theme-icon" aria-hidden="true">◐</span>
+                Mörkt tema
+            </button>
+            <section id="profil" class="intro-section">
+                <p class="section-label">01 / Profil</p>
+                <h2>Nyfiken, lugn<br>och redo att lära.</h2>
+                <p class="intro-text">
+                    Hej! Jag är en 19-årig kille som söker jobb. Jag bor på Alnö
+                    och är flexibel när det gäller arbetsuppgifter. Mina erfarenheter
+                    sträcker sig från praktiskt arbete och trädgårdsskötsel till praktik
+                    inom förskola och äldreomsorg.
+                </p>
+            </section>
+
+            <section id="erfarenhet">
+                <p class="section-label">02 / Erfarenhet</p>
+                <article class="timeline-item">
+                    <div class="timeline-date">2026-09 - pågår</div>
+                    <div>
+                        <h3>Fastighetsskötare</h3>
+                        <p class="company">Wedins Fönsterputs</p>
+                        <p>Arbetade med fastighetsskötsel och praktiska arbetsuppgifter med fokus på att hålla miljöer rena, fungerande och välskötta.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">Sommararbete 2024</div>
+                    <div>
+                        <h3>Vaktmästare, Arenaservice</h3>
+                        <p class="company">Sundsvalls kommun · Baldershov, NP3 Arena &amp; Gärdehov</p>
+                        <p>Skötte anläggningar, tvättade läktarstolar, reparerade enklare saker, rensade ogräs, plockade skräp och höll rent och snyggt. Många uppgifter utfördes självständigt.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">Juni–juli 2025</div>
+                    <div>
+                        <h3>Gräsklippning &amp; trädgårdsarbete</h3>
+                        <p class="company">Hos privatpersoner</p>
+                        <p>Utförde gräsklippning och olika typer av trädgårdsarbete hos flera privatpersoner. Uppdragen var vanligtvis 2–3 timmar och utfördes noggrant.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">Maj–juni 2025</div>
+                    <div>
+                        <h3>Praktik, förskola</h3>
+                        <p class="company">Äppellunda förskola</p>
+                        <p>Hjälpte pedagogerna med ordinarie aktiviteter, assisterade vid måltider och lekte med barnen.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">April 2025</div>
+                    <div>
+                        <h3>Praktik, vårdpersonal</h3>
+                        <p class="company">Äldreboendet Alnösol</p>
+                        <p>Hjälpte vårdtagare vid måltider och utförde enklare städuppgifter på boendet.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">Maj 2022</div>
+                    <div>
+                        <h3>Praktik, förskola</h3>
+                        <p class="company">Fyrens förskola</p>
+                        <p>Gjorde en veckas praktik och deltog i förskolans dagliga sysslor tillsammans med pedagogerna.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-date">2020–2023</div>
+                    <div>
+                        <h3>Trädgårdsskötsel &amp; äldreomsorg</h3>
+                        <p class="company">Familj och närmaste grannar</p>
+                        <p>Hjälpte till med gräsklippning, trädgårdsskötsel, ogräsrensning, flyttar, städning och tunga lyft för familj och grannar.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="utbildning">
+                <p class="section-label">03 / Utbildning</p>
+                <article class="education-item">
+                    <div>
+                        <h3>NTI Gymnasiet</h3>
+                        <p>Augusti 2025–pågående · El och energi, IT-inriktning</p>
+                    </div>
+                    <span class="status-dot">Pågående</span>
+                </article>
+                <article class="education-item">
+                    <div>
+                        <h3>Västermalms skola</h3>
+                        <p>Augusti 2023–juni 2025 · IMA-programmet</p>
+                    </div>
+                </article>
+                <article class="education-item">
+                    <div>
+                        <h3>Vibacke skola, Alnö</h3>
+                        <p>Augusti 2020–juni 2023</p>
+                    </div>
+                </article>
+            </section>
+
+            <footer>
+                <span>Oskar Westman</span>
+                <span>Uppdaterad 2026-09-16</span>
+            </footer>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
